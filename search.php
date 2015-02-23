@@ -1,8 +1,7 @@
 <html>
-  <head>
-   <title>PHP Test</title>
-  </head>
-  <body>
-   <?php echo '<p>Hello World</p>'; ?> 
-  </body>
-</html>
+<body>
+
+        You searched for: <?php echo $_POST["searchTerm"]; ?>
+
+</body>
+</html> 
