@@ -7,9 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Libraries/Classes/JBChartView/JBChartView.h"
-#import "Libraries/Classes/JBChartView/JBBarChartView.h"
-#import "Libraries/Classes/JBChartView/JBLineChartView.h"
 
 @interface ViewController : UIViewController{
     

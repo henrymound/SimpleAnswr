@@ -54,29 +54,23 @@ CGRect screenBound;
     [_AddWidget setTitle:@"Add Widget" forState:UIControlStateNormal];
     [self.view addSubview:_AddWidget];
     
-    JBBarChartView *barChartView = [[JBBarChartView alloc] init];
-    barChartView.dataSource = self;
-    barChartView.delegate = self;
-    barChartView.frame = CGRectMake(_NewGraphButton.frame.origin.x, _NewGraphButton.frame.origin.y - 400, 100, 50.0);
-    [barChartView reloadData];
-    [self.view addSubview:barChartView];
-    
-    
-}
-
-- (NSUInteger)numberOfBarsInBarChartView:(JBBarChartView *)barChartView
-{
-    return 3; // number of bars in chart
-}
-
-
-- (CGFloat)barChartView:(JBBarChartView *)barChartView heightForBarViewAtIndex:(NSUInteger)index
-{
-    return 7; // height of bar at index
 }
 
 
 - (IBAction)AddWidget:(id)sender{
+    
+    UIWebView *webview=[[UIWebView alloc]initWithFrame:CGRectMake(0, 0, 1024,768)];
+    webview.scrollView.scrollEnabled = NO;
+    webview.scrollView.bounces = NO;
+    webview.dataDetectorTypes = UIDataDetectorTypeNone;
+    NSString *url=@"https://simpleanswr-henrymound.c9.io/Chart.js-master/samples/doughnut.html";
+    [webview stringByEvaluatingJavaScriptFromString:@"document.body.style.webkitTouchCallout='none'; document.body.style.KhtmlUserSelect='none'"];
+    NSURL *nsurl=[NSURL URLWithString:url];
+    NSURLRequest *nsrequest=[NSURLRequest requestWithURL:nsurl];
+    [webview loadRequest:nsrequest];
+    [self.view addSubview:webview];
+    
+
 
 }
 

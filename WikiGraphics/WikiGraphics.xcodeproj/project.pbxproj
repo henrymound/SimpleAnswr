@@ -14,9 +14,6 @@
 		80EC5A1F1A9BF20100852CAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80EC5A1E1A9BF20100852CAE /* Images.xcassets */; };
 		80EC5A221A9BF20100852CAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80EC5A201A9BF20100852CAE /* LaunchScreen.xib */; };
 		80EC5A2E1A9BF20200852CAE /* WikiGraphicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC5A2D1A9BF20200852CAE /* WikiGraphicsTests.m */; };
-		80EC5A4B1A9C061300852CAE /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC5A461A9C061300852CAE /* JBBarChartView.m */; };
-		80EC5A4C1A9C061300852CAE /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC5A481A9C061300852CAE /* JBChartView.m */; };
-		80EC5A4D1A9C061300852CAE /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC5A4A1A9C061300852CAE /* JBLineChartView.m */; };
 		80EC5A4F1A9C070C00852CAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80EC5A4E1A9C070C00852CAE /* Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -43,12 +40,6 @@
 		80EC5A211A9BF20100852CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		80EC5A271A9BF20200852CAE /* WikiGraphicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiGraphicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80EC5A2D1A9BF20200852CAE /* WikiGraphicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikiGraphicsTests.m; sourceTree = "<group>"; };
-		80EC5A451A9C061300852CAE /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBarChartView.h; sourceTree = "<group>"; };
-		80EC5A461A9C061300852CAE /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBarChartView.m; sourceTree = "<group>"; };
-		80EC5A471A9C061300852CAE /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartView.h; sourceTree = "<group>"; };
-		80EC5A481A9C061300852CAE /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartView.m; sourceTree = "<group>"; };
-		80EC5A491A9C061300852CAE /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartView.h; sourceTree = "<group>"; };
-		80EC5A4A1A9C061300852CAE /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartView.m; sourceTree = "<group>"; };
 		80EC5A4E1A9C070C00852CAE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +82,6 @@
 		80EC5A101A9BF20100852CAE /* WikiGraphics */ = {
 			isa = PBXGroup;
 			children = (
-				80EC5A381A9C02D300852CAE /* Libraries */,
 				80EC5A151A9BF20100852CAE /* AppDelegate.h */,
 				80EC5A161A9BF20100852CAE /* AppDelegate.m */,
 				80EC5A181A9BF20100852CAE /* ViewController.h */,
@@ -120,35 +110,6 @@
 				80EC5A2D1A9BF20200852CAE /* WikiGraphicsTests.m */,
 			);
 			path = WikiGraphicsTests;
-			sourceTree = "<group>";
-		};
-		80EC5A381A9C02D300852CAE /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-				80EC5A431A9C061300852CAE /* Classes */,
-			);
-			path = Libraries;
-			sourceTree = "<group>";
-		};
-		80EC5A431A9C061300852CAE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				80EC5A441A9C061300852CAE /* JBChartView */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		80EC5A441A9C061300852CAE /* JBChartView */ = {
-			isa = PBXGroup;
-			children = (
-				80EC5A451A9C061300852CAE /* JBBarChartView.h */,
-				80EC5A461A9C061300852CAE /* JBBarChartView.m */,
-				80EC5A471A9C061300852CAE /* JBChartView.h */,
-				80EC5A481A9C061300852CAE /* JBChartView.m */,
-				80EC5A491A9C061300852CAE /* JBLineChartView.h */,
-				80EC5A4A1A9C061300852CAE /* JBLineChartView.m */,
-			);
-			path = JBChartView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,10 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80EC5A1A1A9BF20100852CAE /* ViewController.m in Sources */,
-				80EC5A4D1A9C061300852CAE /* JBLineChartView.m in Sources */,
-				80EC5A4B1A9C061300852CAE /* JBBarChartView.m in Sources */,
 				80EC5A171A9BF20100852CAE /* AppDelegate.m in Sources */,
-				80EC5A4C1A9C061300852CAE /* JBChartView.m in Sources */,
 				80EC5A141A9BF20100852CAE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
