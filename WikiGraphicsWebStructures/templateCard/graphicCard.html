@@ -1,24 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Highlight dropzones with interact.js</title>
-    <script src="../interact.js"></script>
-    <script src="js/dropzones.js"></script>
-    <link rel="stylesheet" href="css/dropzones.css">
-</head>
-<body>
+<html>
+    <style type="text/css">
+    
+        /*Style sheets for buttons*/
+        .awesome, .awesome:visited {
+    background: #222 url(http://zurb.com/images/alert-overlay.png) repeat-x;
+    border: 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Helvetica Neue', Arial, Helvetica, Verdana, sans-serif;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    padding: 5px 10px 6px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    }
+        .awesome:hover {
+    background-color: #111;
+    color: #fff;
+    }
+        .awesome:active {
+    top: 1px;
+    }
+        .small.awesome, .small.awesome:visited {
+    font-size: 11px;
+    }
+        .awesome, .awesome:visited, .medium.awesome, .medium.awesome:visited {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    }
+        .large.awesome, .large.awesome:visited {
+    font-size: 14px;
+    padding: 8px 14px 9px;
+    }
+        .green.awesome, .green.awesome:visited {
+        background-color: #91bd09;
+        }
+        .green.awesome:hover {
+        background-color: #749a02;
+        }
+        .blue.awesome, .blue.awesome:visited {
+        background-color: #2daebf;
+        width: 100%;
+        }
+        .blue.awesome:hover {
+        background-color: #007d9a;
+        }
+        .red.awesome, .red.awesome:visited {
+        background-color: #e33100;
+        }
+        .red.awesome:hover {
+        background-color: #872300;
+        }
+        .magenta.awesome, .magenta.awesome:visited {
+        background-color: #a9014b;
+        }
+        .magenta.awesome:hover {
+        background-color: #630030;
+        }
+        .orange.awesome, .orange.awesome:visited {
+        background-color: #ff5c00;
+        }
+        .orange.awesome:hover {
+        background-color: #d45500;
+        }
+        .yellow.awesome, .yellow.awesome:visited {
+        background-color: #ffb515;
+        }
+        .yellow.awesome:hover {
+        background-color: #fc9200;
+        }
+        
+        /*Style sheets for background*/
+        .card, .card:visited {
+            
+    background: #ffffff;
+    border: 3px dashed #7a7a7a;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Helvetica Neue', Arial, Helvetica, Verdana, sans-serif;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    padding: 5px 10px 6px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    width: 100%;
+    }
+        
+        
+    </style>
+    
+    <body bgcolor="#333" >
+        
+    <font color="white" size="11px"><b>Sample Pie Chart</b></font><br />
+    <div class="card">
+        <center>
+            <iframe src="https://simpleanswr-henrymound.c9.io/Chart.js-master/samples/doughnut.html" frameborder="0" width="100%" height="500px"></iframe>
+        </center>
+    </div>
+    
+    <button class="large awesome blue" type="submit">Add Widget</button>
+    
+    </div>
 
-<div id="drag1" class="draggable js-drag">Drag me…</div>
-<div id="drag2" class="draggable js-drag">Drag me…</div>
-<div id="drag3" class="draggable js-drag">Drag me…</div>
-<div id="drag4" class="draggable js-drag">Drag me…</div>
+    
 
-<div class="dropzone-wrapper">
-    <div id="drop1" class="dropzone js-drop">Dropzone</div>
-    <div id="drop2" class="dropzone js-drop">Dropzone</div>
-    <div id="drop3" class="dropzone js-drop">Dropzone</div>
-</div>
-
-</body>
+    </body>
+    
 </html>
