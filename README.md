@@ -1,5 +1,5 @@
 # SimpleAnswr
-A tool that finds short, reliable answers to questions.
+A tool that finds short, reliable answers to questions through google. Then this data will be graphed via the iPhone-Grapher project (on my repository).
 
 <h3>Where SimpleAnswr Will Get its Data</h3>
 
