@@ -1,5 +1,4 @@
 <html>
-<<<<<<< HEAD
 <body>
 
         <?php
@@ -24,12 +23,3 @@
         ?>
 </body>
 </html> 
-=======
-  <head>
-   <title>PHP Test</title>
-  </head>
-  <body>
-   <?php echo '<p>Hello World</p>'; ?> 
-  </body>
-</html>
->>>>>>> 568f66b94d174b93c3b27a2d17dbd58322084d9c
