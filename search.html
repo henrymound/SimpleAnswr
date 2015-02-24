@@ -1,10 +1,68 @@
 <html>
-<body>
+    <script>
+        var jq = document.createElement('script');
+            jq.src = "//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js";
+                document.querySelector('head').appendChild(jq);
 
+<<<<<<< HEAD
     <form action="search.php" method="post">
         <input type="text" name="searchTerm"><br>
         <input type="submit" text="search">
     </form>
+=======
+        jq.onload = procede;//DON'T TYPE PARENTHESIS
+>>>>>>> 568f66b94d174b93c3b27a2d17dbd58322084d9c
 
-</body>
-</html> 
+        function procede() {
+                //jQuery commands are loaded (do your magic)
+            
+
+        }
+        
+
+        function httpGet(theUrl)
+{
+    if (window.XMLHttpRequest)
+    {// code for IE7+, Firefox, Chrome, Opera, Safari
+        xmlhttp=new XMLHttpRequest();
+    }
+    else
+    {// code for IE6, IE5
+        xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function()
+    {
+        if (xmlhttp.readyState==4 && xmlhttp.status==200)
+        {
+            return xmlhttp.responseText;
+        }
+    }
+    xmlhttp.open("GET", theUrl, false );window.alert(xmlhttp.
+    
+    xmlhttp.send();    
+}
+        
+        function validateForm() {
+            var x = document.forms["searchBar"]["searchTerm"].value;
+            if (x == null || x == "") {
+                alert("Name must be filled out");
+                return false;
+            }else{
+                var enteredWithPlus = x.split(' ').join('+');
+                var urlToSearch = "https://www.google.com/search?q="+enteredWithPlus;
+                var contents = httpGet(urlToSearch);
+                window.alert("hello");
+                window.alert(contents);
+                document.write(contents);
+            }
+        }
+        </script>
+    
+    <body>
+        <form name="searchBar" onsubmit="return validateForm()" method="post">
+            <input type="text" name="searchTerm">
+            <input type="submit" value="Search">
+        </form>
+    </body>
+
+</html>
