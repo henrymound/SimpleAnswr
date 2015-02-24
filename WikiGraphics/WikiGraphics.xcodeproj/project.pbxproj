@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80EC5A141A9BF20100852CAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC5A131A9BF20100852CAE /* main.m */; };
+		80EC5A171A9BF20100852CAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC5A161A9BF20100852CAE /* AppDelegate.m */; };
+		80EC5A1A1A9BF20100852CAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC5A191A9BF20100852CAE /* ViewController.m */; };
+		80EC5A1D1A9BF20100852CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EC5A1B1A9BF20100852CAE /* Main.storyboard */; };
+		80EC5A1F1A9BF20100852CAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80EC5A1E1A9BF20100852CAE /* Images.xcassets */; };
+		80EC5A221A9BF20100852CAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80EC5A201A9BF20100852CAE /* LaunchScreen.xib */; };
+		80EC5A2E1A9BF20200852CAE /* WikiGraphicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC5A2D1A9BF20200852CAE /* WikiGraphicsTests.m */; };
+		80EC5A4B1A9C061300852CAE /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC5A461A9C061300852CAE /* JBBarChartView.m */; };
+		80EC5A4C1A9C061300852CAE /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC5A481A9C061300852CAE /* JBChartView.m */; };
+		80EC5A4D1A9C061300852CAE /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80EC5A4A1A9C061300852CAE /* JBLineChartView.m */; };
+		80EC5A4F1A9C070C00852CAE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80EC5A4E1A9C070C00852CAE /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80EC5A281A9BF20200852CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80EC5A061A9BF20100852CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80EC5A0D1A9BF20100852CAE;
+			remoteInfo = WikiGraphics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80EC5A0E1A9BF20100852CAE /* WikiGraphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiGraphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80EC5A121A9BF20100852CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80EC5A131A9BF20100852CAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80EC5A151A9BF20100852CAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80EC5A161A9BF20100852CAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80EC5A181A9BF20100852CAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80EC5A191A9BF20100852CAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80EC5A1C1A9BF20100852CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80EC5A1E1A9BF20100852CAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80EC5A211A9BF20100852CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80EC5A271A9BF20200852CAE /* WikiGraphicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WikiGraphicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80EC5A2D1A9BF20200852CAE /* WikiGraphicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikiGraphicsTests.m; sourceTree = "<group>"; };
+		80EC5A451A9C061300852CAE /* JBBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBarChartView.h; sourceTree = "<group>"; };
+		80EC5A461A9C061300852CAE /* JBBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBarChartView.m; sourceTree = "<group>"; };
+		80EC5A471A9C061300852CAE /* JBChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBChartView.h; sourceTree = "<group>"; };
+		80EC5A481A9C061300852CAE /* JBChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBChartView.m; sourceTree = "<group>"; };
+		80EC5A491A9C061300852CAE /* JBLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBLineChartView.h; sourceTree = "<group>"; };
+		80EC5A4A1A9C061300852CAE /* JBLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBLineChartView.m; sourceTree = "<group>"; };
+		80EC5A4E1A9C070C00852CAE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80EC5A0B1A9BF20100852CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EC5A241A9BF20200852CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80EC5A051A9BF20100852CAE = {
+			isa = PBXGroup;
+			children = (
+				80EC5A101A9BF20100852CAE /* WikiGraphics */,
+				80EC5A2A1A9BF20200852CAE /* WikiGraphicsTests */,
+				80EC5A0F1A9BF20100852CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80EC5A0F1A9BF20100852CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80EC5A0E1A9BF20100852CAE /* WikiGraphics.app */,
+				80EC5A271A9BF20200852CAE /* WikiGraphicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80EC5A101A9BF20100852CAE /* WikiGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				80EC5A381A9C02D300852CAE /* Libraries */,
+				80EC5A151A9BF20100852CAE /* AppDelegate.h */,
+				80EC5A161A9BF20100852CAE /* AppDelegate.m */,
+				80EC5A181A9BF20100852CAE /* ViewController.h */,
+				80EC5A191A9BF20100852CAE /* ViewController.m */,
+				80EC5A1B1A9BF20100852CAE /* Main.storyboard */,
+				80EC5A1E1A9BF20100852CAE /* Images.xcassets */,
+				80EC5A201A9BF20100852CAE /* LaunchScreen.xib */,
+				80EC5A111A9BF20100852CAE /* Supporting Files */,
+			);
+			path = WikiGraphics;
+			sourceTree = "<group>";
+		};
+		80EC5A111A9BF20100852CAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80EC5A121A9BF20100852CAE /* Info.plist */,
+				80EC5A131A9BF20100852CAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80EC5A2A1A9BF20200852CAE /* WikiGraphicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				80EC5A4E1A9C070C00852CAE /* Info.plist */,
+				80EC5A2D1A9BF20200852CAE /* WikiGraphicsTests.m */,
+			);
+			path = WikiGraphicsTests;
+			sourceTree = "<group>";
+		};
+		80EC5A381A9C02D300852CAE /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				80EC5A431A9C061300852CAE /* Classes */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		80EC5A431A9C061300852CAE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				80EC5A441A9C061300852CAE /* JBChartView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		80EC5A441A9C061300852CAE /* JBChartView */ = {
+			isa = PBXGroup;
+			children = (
+				80EC5A451A9C061300852CAE /* JBBarChartView.h */,
+				80EC5A461A9C061300852CAE /* JBBarChartView.m */,
+				80EC5A471A9C061300852CAE /* JBChartView.h */,
+				80EC5A481A9C061300852CAE /* JBChartView.m */,
+				80EC5A491A9C061300852CAE /* JBLineChartView.h */,
+				80EC5A4A1A9C061300852CAE /* JBLineChartView.m */,
+			);
+			path = JBChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80EC5A0D1A9BF20100852CAE /* WikiGraphics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80EC5A311A9BF20200852CAE /* Build configuration list for PBXNativeTarget "WikiGraphics" */;
+			buildPhases = (
+				80EC5A0A1A9BF20100852CAE /* Sources */,
+				80EC5A0B1A9BF20100852CAE /* Frameworks */,
+				80EC5A0C1A9BF20100852CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikiGraphics;
+			productName = WikiGraphics;
+			productReference = 80EC5A0E1A9BF20100852CAE /* WikiGraphics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80EC5A261A9BF20200852CAE /* WikiGraphicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80EC5A341A9BF20200852CAE /* Build configuration list for PBXNativeTarget "WikiGraphicsTests" */;
+			buildPhases = (
+				80EC5A231A9BF20200852CAE /* Sources */,
+				80EC5A241A9BF20200852CAE /* Frameworks */,
+				80EC5A251A9BF20200852CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80EC5A291A9BF20200852CAE /* PBXTargetDependency */,
+			);
+			name = WikiGraphicsTests;
+			productName = WikiGraphicsTests;
+			productReference = 80EC5A271A9BF20200852CAE /* WikiGraphicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80EC5A061A9BF20100852CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Henry Mound";
+				TargetAttributes = {
+					80EC5A0D1A9BF20100852CAE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					80EC5A261A9BF20200852CAE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 80EC5A0D1A9BF20100852CAE;
+					};
+				};
+			};
+			buildConfigurationList = 80EC5A091A9BF20100852CAE /* Build configuration list for PBXProject "WikiGraphics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80EC5A051A9BF20100852CAE;
+			productRefGroup = 80EC5A0F1A9BF20100852CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80EC5A0D1A9BF20100852CAE /* WikiGraphics */,
+				80EC5A261A9BF20200852CAE /* WikiGraphicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80EC5A0C1A9BF20100852CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80EC5A1D1A9BF20100852CAE /* Main.storyboard in Resources */,
+				80EC5A221A9BF20100852CAE /* LaunchScreen.xib in Resources */,
+				80EC5A1F1A9BF20100852CAE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EC5A251A9BF20200852CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80EC5A4F1A9C070C00852CAE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80EC5A0A1A9BF20100852CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80EC5A1A1A9BF20100852CAE /* ViewController.m in Sources */,
+				80EC5A4D1A9C061300852CAE /* JBLineChartView.m in Sources */,
+				80EC5A4B1A9C061300852CAE /* JBBarChartView.m in Sources */,
+				80EC5A171A9BF20100852CAE /* AppDelegate.m in Sources */,
+				80EC5A4C1A9C061300852CAE /* JBChartView.m in Sources */,
+				80EC5A141A9BF20100852CAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EC5A231A9BF20200852CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80EC5A2E1A9BF20200852CAE /* WikiGraphicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80EC5A291A9BF20200852CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80EC5A0D1A9BF20100852CAE /* WikiGraphics */;
+			targetProxy = 80EC5A281A9BF20200852CAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80EC5A1B1A9BF20100852CAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80EC5A1C1A9BF20100852CAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80EC5A201A9BF20100852CAE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80EC5A211A9BF20100852CAE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80EC5A2F1A9BF20200852CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80EC5A301A9BF20200852CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80EC5A321A9BF20200852CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WikiGraphics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80EC5A331A9BF20200852CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WikiGraphics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80EC5A351A9BF20200852CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WikiGraphicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiGraphics.app/WikiGraphics";
+			};
+			name = Debug;
+		};
+		80EC5A361A9BF20200852CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WikiGraphicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WikiGraphics.app/WikiGraphics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80EC5A091A9BF20100852CAE /* Build configuration list for PBXProject "WikiGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80EC5A2F1A9BF20200852CAE /* Debug */,
+				80EC5A301A9BF20200852CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80EC5A311A9BF20200852CAE /* Build configuration list for PBXNativeTarget "WikiGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80EC5A321A9BF20200852CAE /* Debug */,
+				80EC5A331A9BF20200852CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80EC5A341A9BF20200852CAE /* Build configuration list for PBXNativeTarget "WikiGraphicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80EC5A351A9BF20200852CAE /* Debug */,
+				80EC5A361A9BF20200852CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80EC5A061A9BF20100852CAE /* Project object */;
+}
